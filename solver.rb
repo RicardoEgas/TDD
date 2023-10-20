@@ -4,7 +4,7 @@ class Solver
 
     return 1 if n.zero?
 
-    (1..number).reduce(:*)
+    (1..n).reduce(:*)
   end
 
   def reverse(word)
